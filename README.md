@@ -73,9 +73,8 @@ The webcam window will open and show detected faces and eyes. Press `q` to exit 
 
 ## Notes
 
-- Drowsiness is detected when eyes are closed for 20+ consecutive frames, triggering an alarm sound automatically.
-- The alarm uses the Windows `winsound` module and plays `alarm.wav`.
-- For higher accuracy, the detection model can be extended with blink rate analysis or head pose estimation.
+- Drowsiness is detected when eyes are closed for 20+ consecutive frames, triggering alarm.wav automatically.
+- For higher accuracy, detection can be extended with MediaPipe, blink rate analysis or head pose estimation.
 
 ## License
 
